@@ -35,7 +35,8 @@ struct Lineas
 	{
 		escala = CAM_PROFUNIDAD / ( z - camaraZ);
 		xScreen = (1 + escala * (x - camaraX)) * ANCHO / 2;
-		
+		yScreen = (1 - escala * (y - camaraY)) * ALTO / 2;
+		wScreen = escala * ANCHURA_CALLE * ANCHO / 2;
 	}
 };
 //-------------------------------------------TEXTURA DEL FONDO-----------------------------------//poligono cuyos angulos menores a 180`
@@ -74,6 +75,9 @@ int main()
 	ventana.setFramerateLimit(60);												//limita a 60FPS
 
 	//------------------------------------------RECURSOS--------------------------------------//
+	std::vector<Lineas> lineas;
+
+	int N = lineas.size();
 
 	//---------------------------------------LOOP PRINCIPAL------------------------------------//
 	while ( ventana.isOpen() )
@@ -100,7 +104,6 @@ int main()
 		ventana.clear(sf::Color::White);
 
 		//-----------------------------------DIBUJAR EN PANTALLA----------------------------------//
-
 		
 		//------------------------------------DIBUJAR TEXTURA FONDO------------------------//
 		DibujarQuad(ventana, sf::Color::Blue, 500, 500, 200, 500, 300, 100);//500,500, 200,500,300,100
