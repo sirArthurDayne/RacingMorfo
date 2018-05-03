@@ -1,6 +1,8 @@
 ﻿  main.cpp
-c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(84): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\dev\proyectos cpp\juegos\outrunproyect\racing2d\racing2d-bykrosis\src\main.cpp(131): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Racing2D-ByKrosis.vcxproj -> C:\Dev\Proyectos Cpp\Juegos\OutRunProyect\Racing2D\bin\Win32\Debug\Racing2D-ByKrosis.exe
